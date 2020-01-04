@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(back.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+ul li.active a{
+	background-color:#fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	height: auto;
+	width:80px;
+}
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 35px;
+}
+
+.title h2{
+	color: #fff;
+	font-size: 35px;
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+	width: 270px;
+	box-shadow: 0 0 10px 5px black;
+}
+
+.avatar{
+	font-size: 40px;
+	padding-top:5px;
+	background: #bdc3c7;
+	width: 60px;
+	height: 50px;
+	line-height: 80px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+.login h2{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+} 
+
+.box-login{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: 2px solid white;
+	padding: 8px 0;
+}
+
+.box-login i{
+	font-size: 20px;
+	color: white;	
+}
+
+.box-login input{
+	width: 100%;
+	padding: 0 10px;
+	background: none;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 18px;
+}
+
+.box-login input::placeholder{
+	color: white;
+}
+
+.btn-login {
+	width: 100%;
+	background: none;
+	padding: 10px;
+	border: 1px solid white;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.btn-login:hover {
+	background: rgba(0,0,0,0.8);
+}
+
+.botto {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.botto a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.botto a:hover {
+	text-decoration: underline;
+}
